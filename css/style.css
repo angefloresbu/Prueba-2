@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+:root{
+	--menu-hover:#cd9b33;
+	--color-general:#666;
+	--color-titulos:#000;
+}
+
+header{
+	background-color: #fff;
+	padding: 5px 0;
+	box-shadow: 0px 0px 5px 10px #f2f2f2;
+}
+
+footer #copyright{
+	background-color: #000;
+	color: #fff;
+	padding: 20px 0;
+	text-align: center;
+}
+
+body{
+	font-family: "Lora", serif;
+	font-size: 14px;
+	color: var(--color-general);	
+}
+
+.title{
+	font-family: "Kaushan Script", cursive;
+	color: var(--color-titulos);
+	padding-top: 10px;
+}
+
+.subtitle{
+	color: var(--color-titulos);
+	font-size: 18px;
+}
+
+#intro .subtitle{
+	margin-top: 20%;
+}
+
+h3, h4 {
+	color: var(--color-titulos);
+	font-size: 18px;
+}
+
+h5 {
+	color: #FFFFFF;
+}
+
+#footer {
+	background: #22202e;
+	color: #CCC;
+	padding-top: 40px;
+}
